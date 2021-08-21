@@ -7,6 +7,10 @@ NO.|文件名称|摘要
 0002| [Gin](docs/0002_Gin.md) | VSCode Gin配置
 0001| [Enviroment](docs/0001_Enviroment.md) | 环境变量说明
 
+## 目标
+
+![go_upload_echart.gif](docs/images/go_upload_echart.gif)
+
 ## Examples
 
 * [0009_GinUploadZip](src/0009_GinUploadZip)
