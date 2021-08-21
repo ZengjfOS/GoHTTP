@@ -17,4 +17,5 @@ pkg
 bin
 src/github.com
 examples
-**/tmp/data.txt
+**/tmp/*
+!**/tmp/empty
