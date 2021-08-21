@@ -9,6 +9,7 @@ NO.|文件名称|摘要
 
 ## Examples
 
+* [0007_GinTemplateEChart](src/0007_GinTemplateEChart)
 * [0006_GinTemplate](src/0006_GinTemplate)
 * [0005_GinEChart](src/0005_GinEChart)
 * [0004_GinUpload](src/0004_GinUpload)
