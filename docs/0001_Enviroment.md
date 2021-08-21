@@ -7,7 +7,7 @@
 * GOROOT: go的安装路径
 * GOPATH: 作为编译后二进制文件存放目的地和import包时的搜索路径(其实也是你的工作路径)
 
-```json
+```js
 {
 	// Use IntelliSense to learn about possible attributes.
 	// Hover to view descriptions of existing attributes.

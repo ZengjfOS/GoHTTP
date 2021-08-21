@@ -12,7 +12,7 @@
 			"program": "${fileDirname}",
 			"env": {
 				"GOROOT": "D:\\zengjf\\software\\golang",
-				"GOPATH": "D:\\zengjf\\github\\GoHTTP"
+				"GOPATH": "D:\\zengjf\\github\\GoHTTP;D:\\zengjf\\github\\GoHTTP\\pkg\\mod"
 			}
 		}
 	]
