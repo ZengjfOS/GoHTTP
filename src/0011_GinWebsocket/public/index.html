@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>File binding</title>
+	<script>
+		var socket = new WebSocket("ws://192.168.137.2:8080/ws/echo");
+	
+		socket.onopen = function () {
+			var output = document.getElementById("output");
+			output.innerHTML += "Status: Connected\n";
+		};
+	
+		socket.onmessage = function (e) {
+			var output = document.getElementById("output");
+			output.innerHTML += "Server: " + e.data + "\n";
+		};
+	
+		function send() {
+			var input = document.getElementById("input");
+			console.log(input);
+			socket.send(input.value);
+			input.value = "next";
+		}
+	</script>
+</head>
+<body>
+    <h1>Bind file with fields</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        Name: <input type="text" name="name"><br>
+        Email: <input type="email" name="email"><br>
+        File: <input type="file" name="file"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+	<input id="input" type="text" />
+	<button onclick="send()">Send</button>
+	<pre id="output"></pre>
+</body>
