@@ -15,6 +15,7 @@ NO.|文件名称|摘要
 
 ## Examples
 
+* [0013_HomeKit](src/0013_HomeKit)
 * [0012_GinBootstrap](src/0012_GinBootstrap)
 * [0011_GinWebsocket](src/0011_GinWebsocket)
 * [0010_CMD](src/0010_CMD)
