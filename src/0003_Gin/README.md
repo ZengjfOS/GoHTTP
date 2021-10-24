@@ -1,5 +1,7 @@
 # README
 
+测试Gin是否能工作
+
 ## 安装
 
 * go get -u github.com/gin-gonic/gin
